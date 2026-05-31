@@ -1,0 +1,9 @@
+{
+	"/": [],
+	"/demo": [],
+	"/demo/template1": [],
+	"/story": [],
+	"/story/[step]": [
+		"src/routes/story/[step]/+page.ts"
+	]
+}
