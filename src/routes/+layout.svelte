@@ -1,18 +1,43 @@
 <script lang="ts">
-	import './layout.css'
+  import "./layout.css";
 
-	let { children } = $props()
+  let { children } = $props();
+  const nav = [
+    {
+      name: "Lobby",
+      href: "/",
+      hidden: false,
+    },
+    {
+      name: "Story",
+      href: "/story",
+      hidden: false,
+    },
+    {
+      name: "Settings",
+      href: "/demo",
+      hidden: false,
+    },
+  ];
 </script>
 
-<header class="sticky top-0 z-50 bg-surface-50-950 shadow-xl">
-	<div
-		class="container mx-auto grid grid-cols-[auto_1fr_auto] items-center gap-10 p-4">
-		<a href="#/" class="h3">NWP-Story</a>
-		<p class="collapse text-xs opacity-60 md:visible">Nachtschmerz Projekt</p>
-		<a href="https://skeleton.dev" target="_blank" class="btn preset-filled"
-			>Documentation</a>
-	</div>
-</header>
+
+
+<div class="navbar bg-neutral text-neutral-content">
+  <div class="flex-1">
+      <button class="btn btn-neutral text-xl">daisyUI</button>
+  </div>
+
+   <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+    {#each nav as {name,href}, i (href)}
+      <li>
+        <a href="#{href}">{name}</a>
+      </li>
+    {/each}
+    </ul>
+   </div>
+</div>
 <main class="main">
-	{@render children()}
+  {@render children()}
 </main>

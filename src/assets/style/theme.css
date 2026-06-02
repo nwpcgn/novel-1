@@ -36,6 +36,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  background-color: #fff;
+  color: #262626;
 }
 /* @import './css/_typo.css'; */
 @import "./css/_game-page.css";

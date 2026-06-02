@@ -6,11 +6,9 @@
 </script>
 
 {#key current}
-	<section class="page nwp center opacity-50">
-		<div class="p-4">
-			<img src="/img/drink-milk-1.png" alt="img" />
-		</div>
-	</section>
+<section class="page nwp img-page" style="background-image: url('./img/drink_milk2.png');">
+	
+</section>
 
 	<section class="nwp page center">
 		<div class="space-y-16 p-4 text-center">
@@ -25,7 +23,6 @@
 					<a href="#/story" class="btn preset-filled btn-sm">Back</a>
 				</div>
 				
-				<iframe src="https://www.pornhub.org/embed/68274a4683bca" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
 			{/if}
 		</div>
 	</section>

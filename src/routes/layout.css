@@ -1,7 +1,17 @@
 @import "tailwindcss";
-@plugin '@tailwindcss/forms';
-
+@plugin "daisyui";
+/*@plugin '@tailwindcss/forms';
 @import "@skeletonlabs/skeleton";
 @import "@skeletonlabs/skeleton-svelte";
-@import "@skeletonlabs/skeleton/themes/cerberus";
+@import "@skeletonlabs/skeleton/themes/cerberus"; */
 @import "../assets/style/theme.css";
+
+.img-page {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+  opacity: 0.6;
+  &.contain {
+    background-size: contain;
+  }
+}

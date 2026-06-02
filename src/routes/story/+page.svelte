@@ -14,20 +14,15 @@
 	let color = $state('#bada55')
 </script>
 
-<section class="page center opacity-25">
-	<div class="p-4">
-		<img src="/img/village.png" alt="img" />
-	</div>
+<section class="page nwp img-page" style="background-image: url('./img/drink_milk3.png');">
+	
 </section>
 
 <section class="nwp page center">
 	<div class="space-y-8 p-4 text-center">
-		<h1 class="h1">Landing Page</h1>
 		<div>
-			<a href="#/story/1" class="btn preset-filled btn-lg">Starting</a>
+			<a href="#/story/1" class="btn btn-dark       btn-lg">Starting</a>
 		</div>
-			<div>
-			<a href="#/" class="btn preset-tonal-error btn-sm">Exit</a>
-		</div>
+			
 	</div>
 </section>

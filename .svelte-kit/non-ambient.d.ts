@@ -57,10 +57,14 @@ declare module "$app/types" {
     ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes["Pathname"]>}`;
     Asset():
       | "/img/drink-milk-1.png"
+      | "/img/drink_milk1.png"
+      | "/img/drink_milk2.png"
+      | "/img/drink_milk3.png"
       | "/img/og-logo.png"
       | "/img/og-milk.png"
       | "/img/og-village.png"
       | "/img/sm-logo.png"
+      | "/img/sm_logo.png"
       | "/img/village.png"
       | "/robots.txt"
       | (string & {});
