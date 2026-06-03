@@ -6,9 +6,10 @@
 </script>
 
 {#key current}
-<section class="page nwp img-page" style="background-image: url('./img/drink_milk2.png');">
-	
-</section>
+	<section
+		class="page nwp img-page"
+		style="background-image: url('./img/drink_milk2.png');">
+	</section>
 
 	<section class="nwp page center">
 		<div class="space-y-16 p-4 text-center">
@@ -16,13 +17,12 @@
 
 			{#if current != next}
 				<div>
-					<a href="#/story/{next}" class="btn preset-filled btn-sm">Next</a>
+					<a href="#/story/{next}" class="preset-filled btn btn-sm">Next</a>
 				</div>
 			{:else}
 				<div>
-					<a href="#/story" class="btn preset-filled btn-sm">Back</a>
+					<a href="#/story" class="preset-filled btn btn-sm">Back</a>
 				</div>
-				
 			{/if}
 		</div>
 	</section>

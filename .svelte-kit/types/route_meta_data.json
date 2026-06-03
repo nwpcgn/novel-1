@@ -1,7 +1,22 @@
 {
-  "/": ["src/routes/+layout.ts", "src/routes/+layout.ts"],
-  "/demo": ["src/routes/+layout.ts"],
-  "/demo/template1": ["src/routes/+layout.ts"],
-  "/story": ["src/routes/+layout.ts"],
-  "/story/[step]": ["src/routes/story/[step]/+page.ts", "src/routes/+layout.ts"]
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/battle": [
+		"src/routes/+layout.ts"
+	],
+	"/demo": [
+		"src/routes/+layout.ts"
+	],
+	"/demo/template1": [
+		"src/routes/+layout.ts"
+	],
+	"/story": [
+		"src/routes/+layout.ts"
+	],
+	"/story/[step]": [
+		"src/routes/story/[step]/+page.ts",
+		"src/routes/+layout.ts"
+	]
 }

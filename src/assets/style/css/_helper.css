@@ -3,31 +3,31 @@
 /* -------------------------------------------------------------------------- */
 
 @layer componentsNwp {
-  .nav {
-    --gap: var(--spacing-sm);
-    display: flex;
-    gap: var(--gap);
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: start;
-  }
+	.nav {
+		--gap: var(--spacing-sm);
+		display: flex;
+		gap: var(--gap);
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: start;
+	}
 
-  .stack-list {
-    --gap: var(--spacing-xs);
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap);
-  }
+	.stack-list {
+		--gap: var(--spacing-xs);
+		display: flex;
+		flex-direction: column;
+		gap: var(--gap);
+	}
 
-  .cluster {
-    --gap: var(--spacing-sm);
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap);
-  }
+	.cluster {
+		--gap: var(--spacing-sm);
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--gap);
+	}
 }
 
-@import "./ui/_stacker.css";
+@import './ui/_stacker.css';
 /* @import './ui/_box.css';
 @import './ui/_split-list.css';
 @import './ui/_ascii.grid.css';

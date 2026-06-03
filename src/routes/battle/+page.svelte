@@ -10,7 +10,7 @@
 <section class="nwp page center">
 	<div class="p-4 text-center">
 		<div>
-			<a href="#/story" class="btn-dark btn btn-lg">Landing</a>
+			<a href="#/" class="btn-dark btn btn-lg">Home</a>
 		</div>
 	</div>
 </section>

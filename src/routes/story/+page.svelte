@@ -14,15 +14,15 @@
 	let color = $state('#bada55')
 </script>
 
-<section class="page nwp img-page" style="background-image: url('./img/drink_milk3.png');">
-	
+<section
+	class="page nwp img-page"
+	style="background-image: url('./img/drink_milk3.png');">
 </section>
 
 <section class="nwp page center">
 	<div class="space-y-8 p-4 text-center">
 		<div>
-			<a href="#/story/1" class="btn btn-dark       btn-lg">Starting</a>
+			<a href="#/story/1" class="btn-dark btn btn-lg">Starting</a>
 		</div>
-			
 	</div>
 </section>

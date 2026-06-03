@@ -1,9 +1,9 @@
-import tailwindcss from "@tailwindcss/vite";
-import { sveltekit } from "@sveltejs/kit/vite";
-import { defineConfig } from "vite";
-import path from "path";
+import tailwindcss from '@tailwindcss/vite'
+import { sveltekit } from '@sveltejs/kit/vite'
+import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
-  plugins: [tailwindcss(), sveltekit()],
-  base: "/novel-1/",
-});
+	plugins: [tailwindcss(), sveltekit()],
+	base: '/novel-1/'
+})
